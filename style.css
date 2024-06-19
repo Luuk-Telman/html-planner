@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(40, 40, 40);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#deadlines {
+    position: relative;
+    background-color: rgb(50, 50, 50);
+    width: 45%;
+    height: 45%;
+    border: 1px solid rgb(54, 184, 119);
+    border-radius: 20px;
+}
+
+#deadlines h1 {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgb(54, 184, 119);
+}
+
+.add-button {
+    top: -30px;
+    left: 90%;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-image: url(assets/add_box.svg);
+}
